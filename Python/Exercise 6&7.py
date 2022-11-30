@@ -131,7 +131,7 @@ for i in names:
 
 
 # Task 7.3
-
+"""""
 airports = {}
 
 while True:
@@ -146,3 +146,23 @@ while True:
         print(airports[icao_code])
     elif task == 3:
         break
+"""
+
+print("What is the weather forecast for tomorrow?")
+temperature = float(input("Temperature: "))
+rain = input("Will it rain (yes/no): ")
+ice = temperature < 5
+cold = temperature < 10
+warm = temperature < 20
+hot = temperature > 20
+if hot:
+    print("Wear jeans and a T-shirt")
+elif warm:
+    print("Wear jeans and a T-shirt\n I recommend a jumper as well")
+elif cold:
+    print("Wear jeans and a T-shirt\n I recommend a jumper as well\n Take a jacket with you")
+elif ice:
+    print("Wear jeans and a T-shirt\n I recommend a jumper as well\n Take a jacket with you\n Make it a warm coat, actually\n I think gloves are in order\n Don't forget your umbrella!")
+
+
+

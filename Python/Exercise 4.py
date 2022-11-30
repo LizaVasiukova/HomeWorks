@@ -11,7 +11,8 @@ while i <= 1000:
 """
 #Task 4.2 Write a program that converts inches to centimeters until the user
 #inputs a negative value. Then the program ends.
-"""""
+""""""
+
 while True:
     inch = float(input("Enter inches: "))
     if inch < 0:
@@ -24,6 +25,7 @@ while True:
 # until they enter an empty string to quit. Finally, the program prints out the smallest and largest number from the numbers it received.
 
 """""
+"""
 
 number = input("Enter the number: ")
 biggest = float(number)
@@ -46,7 +48,7 @@ print(f" Biggest number is {biggest} and the smallest is {smallest}")
 #Task 4.4
 
 """""
-""""""""
+""""""
 number = random.randint(1, 10)
 
 while True:
@@ -68,9 +70,9 @@ and password again. This continues until the login information is correct or
 wrong credentials have been entered five times. If the information is correct, 
 the program prints out Welcome. After five failed attempts the program prints out 
 Access denied. The correct username is python and password rules.
-
 """""
-""""""""""
+"""""
+
 username = "python"
 password = "rules"
 times_asked = 0
@@ -107,7 +109,9 @@ while True:
 # using the method explained above. At the end, the program prints out the
 # approximation of pi to the user. (Notice that it is easy to test if a point falls
 # inside circle A by testing if it fulfills the inequation x^2+y^2<1.).
-
+"""""
+"""
+"""
 N = int(input("Enter amount of times to run: "))
 n = 0
 
@@ -128,3 +132,16 @@ print(f"Approximation of pi is {pi}")
 
 
 
+""""""
+"""
+""""
+
+number = input("Please type in a number: ")
+if number > 100:
+    print("The number was greater than one hundred")
+    print("Now its value has decreased by one hundred")
+    print("Its value is now"+ number)
+print(number + " must be my lucky number!")
+print("Have a nice day!")
+
+"""

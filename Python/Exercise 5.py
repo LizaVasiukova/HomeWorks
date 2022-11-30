@@ -28,8 +28,8 @@ print(numbers[0:5])      #print(numbers[0]) print(numbers[1]) print(numbers[2]) 
 #5.3 Write a program that asks the user for an integer and tells if the number is a prime number.
 # Prime numbers are number that are only divisible by one or the number itself.
 #For example, number 13 is a prime number as can only be divided by 1 or 13 so that the result is an integer.
-#On the other hand, number 21 for example is not a prime number as it can be also be divided by numbers 3 and 7.
-
+#On the other hand, number 21 for example is not a prime number as it can be also be divided by numbers 3 and 7."
+"""""
 n = int(input("Provide the number: "))
 if n > 1:
    for i in range(2, int(math.sqrt(n))+1):
@@ -40,9 +40,25 @@ if n > 1:
 # the names) and stores them into a list structure. Finally, the program prints out the names of the
 # cities one by one, one city per line, in the same order they were read as input. Use a for loop for asking
 # the names and a for/in loop to iterate through the list.
-
+"""""
+"""""
 cities = []
 for n in range(5):
     cities.append(input("Enter the name of the city"))
 for city in cities:
     print(city)
+"""
+""""
+#5.1
+import random
+
+times = int(input("How many dice to roll?: "))
+dice_sum = 0
+for times in range(times):
+    number1 = random.randint(1, 6)
+    dice_sum += number1
+print(f" The sum of numbers is {dice_sum}")
+"""
+
+#5.2
+
